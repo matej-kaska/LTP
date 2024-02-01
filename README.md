@@ -14,5 +14,5 @@ Docker projekt - React, Django, NGINX, PostgreSQL a Redis
 
 ## Další projekty:
 - https://app.eduklub.cz/ (EDUBO - Lead programátor teamu - Software pro plánování výuky)
-- https://plany-vyuky.eduklub.cz/ (Eduklub - Lead programátor teamu - Software, který agreguje vytvořené výuky do jedné stránky)
+- https://plany-vyuky.eduklub.cz/ (Eduklub - Lead programátor teamu - Software, který agreguje vytvořené výuky ze softwaru EDUBO do jedné stránky)
 - Ujepsoft - Lead programátor - Software pro vytváření issues a správu github repozitářů softwarů, které spravuje UJEP
