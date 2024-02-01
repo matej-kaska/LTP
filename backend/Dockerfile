@@ -13,8 +13,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 RUN chmod +x /backend/entrypoint.sh
 
-RUN ls -lR /backend
-
 EXPOSE 8000
 
 ENTRYPOINT ["/backend/entrypoint.sh"]

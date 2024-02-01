@@ -33,10 +33,6 @@ jobs:
     - name: Build the Docker Compose stack
       run: docker-compose -f docker-compose.yml build
 
-    - name: Run entrypoint manually
-      run: |
-        docker-compose -f docker-compose.yml run backend /bin/sh -c "chmod +x /backend/entrypoint.sh; cat /backend/entrypoint.sh; /backend/entrypoint.sh"
-
     - name: Run tests
       run: |
         docker-compose -f docker-compose.yml up -d postgresql redis
