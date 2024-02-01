@@ -11,6 +11,8 @@ COPY . .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+RUN chmod +x /backend/entrypoint.sh
+
 EXPOSE 8000
 
 ENTRYPOINT ["/backend/entrypoint.sh"]
